@@ -1,0 +1,74 @@
+<control>
+//Keymap goes here
+#include "keymap/keymap.sfz"
+
+//Stir trim knob range - at zero the cut is applied as dB gain, at max it's the sum of the two
+#define $stircut -12
+#define $stirboost 24
+
+label_cc15=Stir length
+label_cc17=Stir crossfade
+label_cc18=Stir shape
+label_cc19=Stir select
+label_cc22=14 sticking
+label_cc40=14 top
+label_cc41=14 bottom
+label_cc42=14 OH
+label_cc43=14 pan
+label_cc44=14 tune
+label_cc45=14 align
+label_cc46=14 deaden
+label_cc47=14 punch
+label_cc48=14 snap
+label_cc49=14 epic
+label_cc77=Nonkick low cut
+
+set_cc15=63
+set_cc16=63
+set_cc17=63
+set_cc18=63
+set_cc19=63
+set_cc40=80
+set_cc41=80
+set_cc42=100
+set_cc43=69
+set_cc44=63
+
+<global>
+seq_length=4
+loop_mode=one_shot
+off_mode=normal
+ampeg_release=0.2 //Default for hi-hat muting, minimum for snare stirs etc.
+bend_up=100
+bend_down=100
+//Pan curves for the close mics, easier to set them all at once here
+pan_curvecc43=12
+//Mute curves
+//Again easier to set them here instead of under every applicable master header
+ampeg_hold_curvecc46=8
+ampeg_decay_curvecc46=8
+ampeg_sustain_curvecc46=7
+//The non-kick low cut
+eq1_freq=50
+eq1_bw=4
+eq1_gain_oncc77=-18
+//Very low velocity not so whisper quiet
+amp_velcurve_1=0.4
+
+
+//The 14-inch snare minus tom and clicks
+#include "mappings/s14_sstick.sfz"
+#include "mappings/s14_sstick_transp.sfz"
+#include "mappings/s14_switch.sfz"
+#include "mappings/s14_transp_switch.sfz"
+
+//Stirs
+#include "mappings/s14_stir_smooth.sfz"
+#include "mappings/s14_stir_normal.sfz"
+#include "mappings/s14_stir_sharp.sfz"
+#include "mappings/s14_flutter.sfz"
+#include "mappings/mute_stir.sfz"
+
+//Curves
+#include "mappings/curves/pancurves.sfz"
+#include "mappings/curves/tunecurves.sfz"

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<AriaSave version="1951" productID="1014">
+    <Slot id="0" name="02-Kit with brushes" bankId="2527" version="1000" channel="-1" poly="64" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" mute="0">
+        <Main id="0" value="1" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+        <Param id="7" value="1" />
+        <Param id="20" value="1" />
+        <Param id="30" value="0.3581081032752991" />
+        <Param id="31" value="0" />
+        <Param id="32" value="0.5527026653289795" />
+        <Param id="34" value="0.6360629796981812" />
+        <Param id="40" value="0" />
+        <Param id="41" value="0" />
+        <Param id="42" value="0.7472972869873047" />
+        <Param id="44" value="0.6240630149841309" />
+        <Param id="50" value="0" />
+        <Param id="51" value="0" />
+        <Param id="52" value="0.7581081390380859" />
+        <Param id="54" value="0.6280630230903625" />
+        <Param id="71" value="0.1743243336677551" />
+        <Param id="72" value="0.2391892075538635" />
+        <Param id="74" value="0.5600630044937134" />
+        <Param id="83" value="0.5800629854202271" />
+        <Param id="95" value="0.6640629768371582" />
+        <Param id="103" value="0.5680630207061768" />
+    </Slot>
+</AriaSave>

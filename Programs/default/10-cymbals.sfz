@@ -1,0 +1,50 @@
+<control>
+//Keymap goes here
+#include "keymap/keymap.sfz"
+
+label_cc25=Cymbal sticking
+label_cc77=Nonkick low cut
+label_cc85=Crash close
+label_cc86=Crash OH
+label_cc87=Crash pan
+label_cc90=Ride close
+label_cc91=Ride OH
+label_cc92=Ride pan
+label_cc95=Cymbal tune
+label_cc96=Cymbal dryness
+
+set_cc86=80
+set_cc87=75
+set_cc91=80
+set_cc92=48
+set_cc95=63
+
+<global>
+seq_length=4
+loop_mode=one_shot
+off_mode=normal
+ampeg_release=0.2 //Default for hi-hat muting, minimum for snare stirs etc.
+bend_up=100
+bend_down=100
+//Pan curves for the close mics, easier to set them all at once here
+pan_curvecc87=12
+pan_curvecc92=12
+//Mute curves
+//Again easier to set them here instead of under every applicable master header
+ampeg_sustain_curvecc96=8
+//The non-kick low cut
+eq1_freq=50
+eq1_bw=4
+eq1_gain_oncc77=-18
+//Very low velocity not so whisper quiet
+amp_velcurve_1=0.4
+
+//Crash
+#include "mappings/c16_all.sfz"
+
+//Ride
+#include "mappings/r20_all.sfz"
+
+//Curves
+#include "mappings/curves/pancurves.sfz"
+#include "mappings/curves/tunecurves.sfz"

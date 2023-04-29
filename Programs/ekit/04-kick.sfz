@@ -1,0 +1,42 @@
+<control>
+//Keymap goes here
+#include "keymap/keymap.sfz"
+
+label_cc70=Kick out
+label_cc71=Kick in
+label_cc72=Kick OH
+label_cc74=Kick tune
+label_cc76=Kick deaden
+label_cc77=Nonkick low cut
+label_cc78=Kick punch
+label_cc79=Kick epic
+
+set_cc70=100
+set_cc72=40
+set_cc74=63
+
+<global>
+seq_length=4
+loop_mode=one_shot
+off_mode=normal
+ampeg_release=0.2 //Default for hi-hat muting, minimum for snare stirs etc.
+bend_up=100
+bend_down=100
+ampeg_hold_curvecc76=8
+ampeg_decay_curvecc76=8
+ampeg_sustain_curvecc76=7
+//The non-kick low cut
+eq1_freq=50
+eq1_bw=4
+eq1_gain_oncc77=-18
+//Very low velocity not so whisper quiet
+amp_velcurve_1=0.4
+
+
+//The 20-inch kick/snare without the rim clicks
+#include "mappings/k20_no_clicks.sfz"
+#include "mappings/k20_transp.sfz"
+
+//Curves
+#include "mappings/curves/pancurves.sfz"
+#include "mappings/curves/tunecurves.sfz"

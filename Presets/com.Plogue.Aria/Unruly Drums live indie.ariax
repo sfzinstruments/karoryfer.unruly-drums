@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<AriaSave version="1951" productID="1014">
+    <Slot id="0" name="01-Kit with sticks" bankId="2527" version="1000" channel="-1" poly="64" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" mute="0">
+        <Main id="0" value="1" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+        <Param id="20" value="1" />
+        <Param id="31" value="0" />
+        <Param id="41" value="0" />
+        <Param id="51" value="0" />
+        <Param id="72" value="0.5959459543228149" />
+        <Param id="80" value="0.4013513326644897" />
+        <Param id="85" value="0.2391892075538635" />
+        <Param id="90" value="0.25" />
+    </Slot>
+</AriaSave>

@@ -1,0 +1,107 @@
+//13 inch snare
+//Flutters base layer
+<master>
+volume=$stircut gain_oncc16=$stirboost
+key=$sstirf
+ampeg_sustain=0
+ampeg_attackcc15=0.3
+ampeg_decaycc15=1
+ampeg_releasecc17=1
+tune_cc54=1200 tune_curvecc54=41
+offset_random=17532
+
+
+<group>
+amplitude_cc50=100
+locc50=1
+pan_cc53=100
+group=91
+off_by=91
+locc19=80
+#include "mappings/s13/s13_stir_1_btm_map.sfz"
+
+<group>
+amplitude_cc51=100
+locc51=1
+pan_cc53=100
+group=92
+off_by=92
+locc19=80
+#include "mappings/s13/s13_stir_1_top_map.sfz"
+
+<group>
+amplitude_cc52=100
+locc52=1
+amplitude_cc53=100
+amplitude_curvecc53=10
+pan=-100
+group=93
+off_by=93
+locc19=80
+offset_cc55=105
+#include "mappings/s13/s13_stir_1_ohl_map.sfz"
+
+<group>
+amplitude_cc52=100
+locc52=1
+amplitude_cc53=100
+amplitude_curvecc53=11
+pan=100
+group=94
+off_by=94
+locc19=80
+#include "mappings/s13/s13_stir_1_ohr_map.sfz"
+
+//Flutters top layer
+<master>
+volume=$stircut gain_oncc16=$stirboost
+key=$sstirf
+ampeg_sustain=0
+ampeg_attackcc15=0.5
+ampeg_holdcc15=2
+ampeg_decaycc15=2
+ampeg_releasecc17=0.75
+tune_cc54=1200 tune_curvecc54=41
+offset_random=17532
+
+
+<group>
+amplitude_cc50=100
+locc50=1
+pan_cc53=100
+group=95
+off_by=95
+locc19=80
+#include "mappings/s13/s13_flutter_btm_map.sfz"
+
+<group>
+amplitude_cc51=100
+locc51=1
+pan_cc53=100
+group=96
+off_by=96
+locc19=80
+#include "mappings/s13/s13_flutter_top_map.sfz"
+
+<group>
+amplitude_cc52=100
+locc52=1
+amplitude_cc53=100
+amplitude_curvecc53=10
+pan=-100
+group=97
+off_by=97
+locc19=80
+offset_cc55=105
+#include "mappings/s13/s13_flutter_ohl_map.sfz"
+
+<group>
+amplitude_cc52=100
+locc52=1
+amplitude_cc53=100
+amplitude_curvecc53=11
+pan=100
+group=98
+off_by=98
+locc19=80
+#include "mappings/s13/s13_flutter_ohr_map.sfz"

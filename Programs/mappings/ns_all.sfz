@@ -1,0 +1,160 @@
+<master>
+key=$kickdownkey
+seq_length=3
+amplitude_cc105=100
+locc105=1
+group=101
+off_by=101
+ampeg_decay=0.4
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/kick_down_cl_map.sfz"
+<master>
+key=$kickdownkey
+seq_length=3
+amplitude_cc106=100	
+locc106=1
+group=102
+off_by=102
+ampeg_decay=0.4
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/kick_down_oh_map.sfz"
+
+<master>
+key=$kickgroankey
+seq_length=3
+amplitude_cc105=100
+locc105=1
+group=103
+off_by=101
+ampeg_decay=0.4
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/kick_groan_cl_map.sfz"
+<master>
+key=$kickgroankey
+seq_length=3
+amplitude_cc106=100	
+locc106=1
+group=104
+off_by=102
+ampeg_decay=0.4
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/kick_groan_oh_map.sfz"
+
+<master>
+key=$kickupkey
+seq_length=3
+amplitude_cc105=100
+locc105=1
+group=101
+off_by=101
+ampeg_decay=0.4
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/kick_up_cl_map.sfz"
+<master>
+key=$kickupkey
+seq_length=3
+amplitude_cc106=100	
+locc106=1
+group=102
+off_by=102
+ampeg_decay=0.4
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/kick_up_oh_map.sfz"
+
+<master>
+key=$stoolsitkey
+seq_length=3
+amplitude_cc105=100
+locc105=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/stool_sit_cl_map.sfz"
+<master>
+key=$stoolsitkey
+seq_length=3
+amplitude_cc106=100	
+locc106=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/stool_sit_oh_map.sfz"
+
+<master>
+key=$stoolturnkey
+seq_length=3
+amplitude_cc105=100
+locc105=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/stool_turn_cl_map.sfz"
+<master>
+key=$stoolturnkey
+seq_length=3
+amplitude_cc106=100	
+locc106=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/stool_turn_oh_map.sfz"
+
+<master>
+key=$htdownkey
+seq_length=3
+amplitude_cc105=100
+locc105=1
+pan_cc82=100
+pan_curvecc82=24
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/hh_pedal_down_cl_map.sfz"
+<master>
+key=$htdownkey
+seq_length=3
+amplitude_cc106=100
+locc106=1
+pan_cc82=100
+pan_curvecc82=25
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/hh_pedal_down_oh_map.sfz"
+
+//Hi-hat pedal returns are in the h14_foot mapping, so they'll end up in the right bus
+
+<master>
+key=$htupkey
+seq_length=3
+amplitude_cc105=100
+locc105=1
+pan_cc82=100
+pan_curvecc82=24
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/ns/hh_pedal_up_cl_map.sfz"
+<master>
+key=$htupkey
+seq_length=3
+amplitude_cc106=100	
+locc106=1
+pan_cc82=100
+pan_curvecc82=25
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1	
+#include "mappings/ns/hh_pedal_up_oh_map.sfz"

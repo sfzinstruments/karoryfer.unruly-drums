@@ -1,0 +1,64 @@
+<control>
+//Keymap goes here
+#include "keymap/keymap.sfz"
+
+label_cc33=22 pan
+label_cc43=14 pan
+label_cc53=13 pan
+label_cc77=Nonkick low cut
+label_cc82=Hi-hat pan
+label_cc100=Click close
+label_cc101=Click OH
+label_cc102=Click btm
+label_cc103=Click tune
+label_cc105=Mech close
+label_cc106=Mech OH
+label_cc107=Woodblock pan
+
+set_cc33=41
+set_cc43=69
+set_cc53=85
+set_cc82=80
+Set_cc100=100
+set_cc101=100
+set_cc103=63
+set_cc105=20
+set_cc106=100
+set_cc107=55
+
+<global>
+seq_length=4
+loop_mode=one_shot
+off_mode=normal
+ampeg_release=0.2 //Default for hi-hat muting, minimum for snare stirs etc.
+bend_up=100
+bend_down=100
+//Pan curves for the close mics, easier to set them all at once here
+pan_curvecc33=12
+pan_curvecc43=12
+pan_curvecc53=12
+pan_curvecc82=12
+pan_curvecc107=12
+//The non-kick low cut
+eq1_freq=50
+eq1_bw=4
+eq1_gain_oncc77=-18
+//Very low velocity does not need to be set globally here
+
+//Rim clicks on the kick
+#include "mappings/k20_clicks.sfz"
+
+//Rim clicks on the snares
+#include "mappings/s22_clicks.sfz"
+#include "mappings/s14_clicks.sfz"
+#include "mappings/s13_clicks.sfz"
+
+//Woodblock
+#include "mappings/wb_all.sfz"
+
+//Mechanical noises
+#include "mappings/ns_all.sfz"
+
+//Curves
+#include "mappings/curves/pancurves.sfz"
+#include "mappings/curves/tunecurves.sfz"

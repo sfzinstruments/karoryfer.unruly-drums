@@ -1,0 +1,233 @@
+<control>
+//Keymap goes here
+#include "keymap/keymap.sfz"
+
+//Stir trim knob range - at zero the cut is applied as dB gain, at max it's the sum of the two
+#define $stircut -12
+#define $stirboost 24
+
+//Comment out the below two lines and uncomment the next two for e-kit use
+#define $ht_lo_hi_init 127
+#include "keymap/hatccs_default.sfz"
+//#define $ht_lo_hi_init 0
+//#include "keymap/hatccs_ekit.sfz"
+
+label_cc4=Hi-hat position
+label_cc15=Stir length
+label_cc17=Stir crossfade
+label_cc18=Stir shape
+label_cc19=Stir select
+label_cc20=Tom dirt
+label_cc21=22 sticking
+label_cc22=14 sticking
+label_cc23=13 sticking
+label_cc25=Cymbal sticking
+label_cc30=22 top
+label_cc31=22 bottom
+label_cc32=22 OH
+label_cc33=22 pan
+label_cc34=22 tune
+label_cc35=22 align
+label_cc36=22 deaden
+label_cc37=22 punch
+label_cc38=22 snap
+label_cc39=22 epic
+label_cc40=14 top
+label_cc41=14 bottom
+label_cc42=14 OH
+label_cc43=14 pan
+label_cc44=14 tune
+label_cc45=14 align
+label_cc46=14 deaden
+label_cc47=14 punch
+label_cc48=14 snap
+label_cc49=14 epic
+label_cc50=13 top
+label_cc51=13 bottom
+label_cc52=13 OH
+label_cc53=13 pan
+label_cc54=13 tune
+label_cc55=13 align
+label_cc56=13 deaden
+label_cc57=13 punch
+label_cc58=13 snap
+label_cc59=13 epic
+label_cc70=Kick out
+label_cc71=Kick in
+label_cc72=Kick OH
+label_cc74=Kick tune
+label_cc76=Kick deaden
+label_cc77=Nonkick low cut
+label_cc78=Kick punch
+label_cc79=Kick epic
+label_cc80=Hi-hat close
+label_cc81=Hi-hat OH
+label_cc82=Hi-hat pan
+label_cc83=Hi-hat tune
+label_cc84=Hi-hat align
+label_cc85=Crash close
+label_cc86=Crash OH
+label_cc87=Crash pan
+label_cc90=Ride close
+label_cc91=Ride OH
+label_cc92=Ride pan
+label_cc95=Cymbal tune
+label_cc96=Cymbal dryness
+label_cc98=Hi-hat tightness
+label_cc100=Click close
+label_cc101=Click OH
+label_cc102=Click btm
+label_cc103=Click tune
+label_cc105=Mech close
+label_cc106=Mech OH
+label_cc107=Woodblock pan
+
+set_cc4=$ht_lo_hi_init
+set_cc15=63
+set_cc16=63
+set_cc17=63
+set_cc18=63
+set_cc19=63
+set_cc30=80
+set_cc31=100
+set_cc32=110
+set_cc33=41
+set_cc34=63
+set_cc40=80
+set_cc41=80
+set_cc42=100
+set_cc43=69
+set_cc44=63
+set_cc50=80
+set_cc51=40
+set_cc52=110
+set_cc53=85
+set_cc54=63
+set_cc70=100
+set_cc72=40
+set_cc74=63
+set_cc81=80
+set_cc82=80
+set_cc83=63
+set_cc86=80
+set_cc87=75
+set_cc91=80
+set_cc92=48
+set_cc95=63
+Set_cc100=100
+set_cc101=100
+set_cc103=63
+set_cc105=20
+set_cc106=100
+set_cc107=55
+
+<global>
+seq_length=4
+loop_mode=one_shot
+off_mode=normal
+ampeg_release=0.2 //Default for hi-hat muting, minimum for snare stirs etc.
+bend_up=100
+bend_down=100
+//Pan curves for the close mics, easier to set them all at once here
+pan_curvecc33=12
+pan_curvecc43=12
+pan_curvecc53=12
+pan_curvecc82=12
+pan_curvecc87=12
+pan_curvecc92=12
+pan_curvecc107=12
+//Mute curves
+//Again easier to set them here instead of under every applicable master header
+ampeg_hold_curvecc36=8
+ampeg_decay_curvecc36=8
+ampeg_sustain_curvecc36=7
+ampeg_hold_curvecc46=8
+ampeg_decay_curvecc46=8
+ampeg_sustain_curvecc46=7
+ampeg_hold_curvecc56=8
+ampeg_decay_curvecc56=8
+ampeg_sustain_curvecc56=7
+ampeg_hold_curvecc76=8
+ampeg_decay_curvecc76=8
+ampeg_sustain_curvecc76=7
+ampeg_sustain_curvecc96=8
+ampeg_hold_curvecc98=8
+ampeg_decay_curvecc98=8
+ampeg_sustain_curvecc98=7
+//The non-kick low cut
+eq1_freq=50
+eq1_bw=4
+eq1_gain_oncc77=-18
+//Very low velocity not so whisper quiet
+amp_velcurve_1=0.4
+
+//The 20-inch kick/snare and its rim clicks
+#include "mappings/k20_no_clicks.sfz"
+#include "mappings/k20_transp.sfz"
+#include "mappings/k20_clicks.sfz"
+
+//The 22-inch snare except for stirs
+#include "mappings/s22_sstick.sfz"
+#include "mappings/s22_sstick_transp.sfz"
+#include "mappings/s22_switch.sfz"
+#include "mappings/s22_transp_switch.sfz"
+#include "mappings/s22_tom.sfz"
+#include "mappings/s22_tom_transp.sfz"
+#include "mappings/s22_clicks.sfz"
+
+//The 14-inch snare except for stirs
+#include "mappings/s14_sstick.sfz"
+#include "mappings/s14_sstick_transp.sfz"
+#include "mappings/s14_switch.sfz"
+#include "mappings/s14_transp_switch.sfz"
+#include "mappings/s14_tom.sfz"
+#include "mappings/s14_tom_transp.sfz"
+#include "mappings/s14_clicks.sfz"
+
+//The 13-inch snare except for stirs
+#include "mappings/s13_sstick.sfz"
+#include "mappings/s13_sstick_transp.sfz"
+#include "mappings/s13_switch.sfz"
+#include "mappings/s13_transp_switch.sfz"
+#include "mappings/s13_tom.sfz"
+#include "mappings/s13_tom_transp.sfz"
+#include "mappings/s13_clicks.sfz"
+
+//Crash
+#include "mappings/c16_all.sfz"
+
+//Ride
+#include "mappings/r20_all.sfz"
+
+//Hi-hat
+#include "mappings/h14_switch.sfz"
+#include "mappings/h14_foot.sfz"
+#include "mappings/h14_mute.sfz"
+
+//Woodblock
+#include "mappings/wb_all.sfz"
+
+//Mechanical noises
+#include "mappings/ns_all.sfz"
+
+//Stirs
+#include "mappings/s22_stir_smooth.sfz"
+#include "mappings/s22_stir_normal.sfz"
+#include "mappings/s22_stir_sharp.sfz"
+#include "mappings/s22_flutter.sfz"
+#include "mappings/s14_stir_smooth.sfz"
+#include "mappings/s14_stir_normal.sfz"
+#include "mappings/s14_stir_sharp.sfz"
+#include "mappings/s14_flutter.sfz"
+#include "mappings/s13_stir_smooth.sfz"
+#include "mappings/s13_stir_normal.sfz"
+#include "mappings/s13_stir_sharp.sfz"
+#include "mappings/s13_flutter.sfz"
+#include "mappings/mute_stir.sfz"
+
+//Curves
+#include "mappings/curves/pancurves.sfz"
+#include "mappings/curves/tunecurves.sfz"
+//One of the below two lines should be commented out
+#include "mappings/curves/hh_kb_volcurves.sfz"
+//#include "mappings/curves/hh_ekit_volcurves.sfz"

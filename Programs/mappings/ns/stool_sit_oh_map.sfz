@@ -1,0 +1,13 @@
+
+<group>
+
+<region>
+sample=../Samples/ns/oh/rr1/stool_sit_rr1.flac
+
+<region>
+sample=../Samples/ns/oh/rr2/stool_sit_rr2.flac
+seq_position=2
+
+<region>
+sample=../Samples/ns/oh/rr3/stool_sit_rr3.flac
+seq_position=3

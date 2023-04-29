@@ -1,0 +1,363 @@
+//22 inch snare
+//Long stirs base layer
+<master>
+volume=$stircut gain_oncc16=$stirboost
+key=$sstirs
+ampeg_sustain=0
+ampeg_attackcc15=0.5
+ampeg_holdcc15=2.5
+ampeg_decaycc15=3
+ampeg_releasecc17=2
+tune_cc34=1200 tune_curvecc34=41
+offset_random=17532 hicc18=40 ampeg_attack_shape=0.0 ampeg_decay_shape=0.0
+
+<group>
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+group=91
+off_by=91
+hicc19=40
+#include "mappings/s22/s22_stir_1_btm_map.sfz"
+
+<group>
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+group=92
+off_by=92
+hicc19=40
+#include "mappings/s22/s22_stir_1_top_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=-100 amplitude_cc33=100 amplitude_curvecc33=18
+group=93
+off_by=93
+hicc19=40
+#include "mappings/s22/s22_stir_1_ohl_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=100 amplitude_cc33=100 amplitude_curvecc33=19
+group=94
+off_by=94
+hicc19=40
+offset_cc35=68
+#include "mappings/s22/s22_stir_1_ohr_map.sfz"
+
+//Long stirs top layer high vel
+<master>
+volume=$stircut gain_oncc16=$stirboost
+key=$sstirs
+ampeg_sustain=0
+delay_cc15=1.5
+ampeg_attackcc15=1.5
+ampeg_decaycc15=1.5
+ampeg_releasecc17=1
+tune_cc34=1200 tune_curvecc34=41
+lovel=64
+offset_random=17532 hicc18=40 ampeg_attack_shape=0.0 ampeg_decay_shape=0.0
+
+<group>
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+group=95
+off_by=95
+hicc19=40
+#include "mappings/s22/s22_stir_3_btm_map.sfz"
+
+<group>
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+group=96
+off_by=96
+hicc19=40
+#include "mappings/s22/s22_stir_3_top_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=-100 amplitude_cc33=100 amplitude_curvecc33=18
+group=97
+off_by=97
+hicc19=40
+#include "mappings/s22/s22_stir_3_ohl_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=100 amplitude_cc33=100 amplitude_curvecc33=19
+group=98
+off_by=98
+hicc19=40
+offset_cc35=68
+#include "mappings/s22/s22_stir_3_ohr_map.sfz"
+
+//Long stirs top layer low vel
+<master>
+volume=$stircut gain_oncc16=$stirboost
+key=$sstirs
+ampeg_sustain=0
+delay_cc15=1.5
+ampeg_attackcc15=1.5
+ampeg_decaycc15=1.5
+ampeg_releasecc17=1
+tune_cc34=1200 tune_curvecc34=41
+hivel=63
+amp_velcurve_63=1
+offset_random=17532 hicc18=40 ampeg_attack_shape=0.0 ampeg_decay_shape=0.0
+
+<group>
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+group=95
+off_by=95
+hicc19=40
+#include "mappings/s22/s22_stir_2_btm_map.sfz"
+
+<group>
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+group=96
+off_by=96
+hicc19=40
+#include "mappings/s22/s22_stir_2_top_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=-100 amplitude_cc33=100 amplitude_curvecc33=18
+group=97
+off_by=97
+hicc19=40
+#include "mappings/s22/s22_stir_2_ohl_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=100 amplitude_cc33=100 amplitude_curvecc33=19
+group=98
+off_by=98
+hicc19=40
+offset_cc35=68
+#include "mappings/s22/s22_stir_2_ohr_map.sfz"
+
+//Stir accent base layer high velocity
+<master>
+volume=$stircut gain_oncc16=$stirboost
+key=$sstira
+ampeg_sustain=0
+ampeg_attackcc15=0.5
+ampeg_decaycc15=3
+ampeg_releasecc17=2
+tune_cc34=1200 tune_curvecc34=41
+lovel=64
+offset_random=17532 hicc18=40 ampeg_attack_shape=0.0 ampeg_decay_shape=0.0
+
+<group>
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+group=91
+off_by=91
+hicc19=40
+#include "mappings/s22/s22_stir_2_btm_map.sfz"
+
+<group>
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+group=92
+off_by=92
+hicc19=40
+#include "mappings/s22/s22_stir_2_top_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=-100 amplitude_cc33=100 amplitude_curvecc33=18
+group=93
+off_by=93
+hicc19=40
+#include "mappings/s22/s22_stir_2_ohl_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=100 amplitude_cc33=100 amplitude_curvecc33=19
+group=94
+off_by=94
+hicc19=40
+offset_cc35=68
+#include "mappings/s22/s22_stir_2_ohr_map.sfz"
+
+//Stir accent base layer low velocity
+<master>
+volume=$stircut gain_oncc16=$stirboost
+key=$sstira
+ampeg_sustain=0
+ampeg_attackcc15=0.5
+ampeg_decaycc15=3
+ampeg_releasecc17=2
+tune_cc34=1200 tune_curvecc34=41
+hivel=63
+amp_velcurve_63=1
+offset_random=17532 hicc18=40 ampeg_attack_shape=0.0 ampeg_decay_shape=0.0
+
+<group>
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+group=91
+off_by=91
+hicc19=40
+#include "mappings/s22/s22_stir_1_btm_map.sfz"
+
+<group>
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+group=92
+off_by=92
+hicc19=40
+#include "mappings/s22/s22_stir_1_top_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=-100 amplitude_cc33=100 amplitude_curvecc33=18
+group=93
+off_by=93
+hicc19=40
+#include "mappings/s22/s22_stir_1_ohl_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=100 amplitude_cc33=100 amplitude_curvecc33=19
+group=94
+off_by=94
+hicc19=40
+offset_cc35=68
+#include "mappings/s22/s22_stir_1_ohr_map.sfz"
+
+//Stir accent top layer
+<master>
+volume=$stircut gain_oncc16=$stirboost
+key=$sstira
+ampeg_sustain=0
+ampeg_attackcc15=0.5
+ampeg_decaycc15=1.5
+ampeg_releasecc17=0.5
+tune_cc34=1200 tune_curvecc34=41
+offset_random=17532 hicc18=40 ampeg_attack_shape=0.0 ampeg_decay_shape=0.0
+
+<group>
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+group=95
+off_by=95
+hicc19=40
+#include "mappings/s22/s22_stir_4_btm_map.sfz"
+
+<group>
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+group=96
+off_by=96
+hicc19=40
+#include "mappings/s22/s22_stir_4_top_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=-100 amplitude_cc33=100 amplitude_curvecc33=18
+group=97
+off_by=97
+hicc19=40
+#include "mappings/s22/s22_stir_4_ohl_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=100 amplitude_cc33=100 amplitude_curvecc33=19
+group=98
+off_by=98
+hicc19=40
+offset_cc35=68
+#include "mappings/s22/s22_stir_4_ohr_map.sfz"
+
+//Init stirs, can also be used as non-muting accents
+//Low vel
+<master>
+volume=$stircut gain_oncc16=$stirboost
+key=$sstiri
+ampeg_sustain=0
+ampeg_attackcc15=0.25
+ampeg_decaycc15=0.75
+tune_cc34=1200 tune_curvecc34=41
+hivel=63
+amp_velcurve_63=1
+offset_random=17532 hicc18=40 ampeg_attack_shape=0.0 ampeg_decay_shape=0.0
+
+<group>
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+hicc19=40
+#include "mappings/s22/s22_stir_2_btm_map.sfz"
+
+<group>
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+hicc19=40
+#include "mappings/s22/s22_stir_2_top_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=-100 amplitude_cc33=100 amplitude_curvecc33=18
+hicc19=40
+#include "mappings/s22/s22_stir_2_ohl_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=100 amplitude_cc33=100 amplitude_curvecc33=19
+hicc19=40
+offset_cc35=68
+#include "mappings/s22/s22_stir_2_ohr_map.sfz"
+
+//High vel
+<master>
+volume=$stircut gain_oncc16=$stirboost
+key=$sstiri
+ampeg_sustain=0
+ampeg_attackcc15=0.25
+ampeg_decaycc15=0.75
+tune_cc34=1200 tune_curvecc34=41
+lovel=64
+offset_random=17532 hicc18=40 ampeg_attack_shape=0.0 ampeg_decay_shape=0.0
+
+<group>
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+hicc19=40
+#include "mappings/s22/s22_stir_3_btm_map.sfz"
+
+<group>
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+hicc19=40
+#include "mappings/s22/s22_stir_3_top_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=-100 amplitude_cc33=100 amplitude_curvecc33=18
+hicc19=40
+#include "mappings/s22/s22_stir_3_ohl_map.sfz"
+
+<group>
+amplitude_cc32=100
+locc32=1
+pan=100 amplitude_cc33=100 amplitude_curvecc33=19
+hicc19=40
+offset_cc35=68
+#include "mappings/s22/s22_stir_3_ohr_map.sfz"

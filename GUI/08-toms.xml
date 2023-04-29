@@ -1,0 +1,146 @@
+<GUI w="775" h="335">
+
+	<!-- Toms GUI -->
+ 
+	<!-- Background -->
+
+	<StaticImage x="0" y="0" w="773" h="333" image="control_tab_toms.png" transparent="0"  />
+	
+
+
+
+
+	<!-- Controls - 22-in snare -->
+	
+	<StaticText x="72" y="29" w="50" h="20" text="22 IN" color_text="#101D0AFF" transparent="1"  />
+
+	<StaticText x="20" y="57" w="32" h="18" text="Top" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="30"   x="30"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="60" y="57" w="32" h="18" text="OH" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="32"   x="70"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="100" y="57" w="32" h="18" text="Punch" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="37"   x="110"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="140" y="57" w="32" h="18" text="Epic" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="39"   x="150"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<!-- 22-in snare knobs -->
+
+	<StaticText x="42" y="212" w="50" h="18" text="Pan" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="33" x="52" y="230" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="102" y="212" w="50" h="18" text="Tune" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="34" x="112" y="230" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="42" y="265" w="50" h="18" text="Dead" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="36" x="52" y="283" image="Perc_knob.png" frames="128"  />
+
+	<StaticText          x="102"  y="265" w="50" h="18" text="Align" color_text="#101D0AFF" />
+
+	<!-- OnOffButton: a 2-state cc modulator -->
+	<OnOffButton param="35"  x="112" y="283" w="30" h="30" image="Perc_button.png" />
+
+
+	<!-- Controls - 14-in snare -->
+	
+	<StaticText x="282" y="29" w="50" h="20" text="14 IN" color_text="#101D0AFF" transparent="1"  />
+
+	<StaticText x="230" y="57" w="32" h="18" text="Top" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="40"   x="240"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="270" y="57" w="32" h="18" text="OH" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="42"   x="280"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="310" y="57" w="32" h="18" text="Punch" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="47"   x="320"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="350" y="57" w="32" h="18" text="Epic" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="49"   x="360"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<!-- 14-in snare knobs -->
+
+	<StaticText x="252" y="212" w="50" h="18" text="Pan" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="43" x="262" y="230" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="312" y="212" w="50" h="18" text="Tune" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="44" x="322" y="230" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="252" y="265" w="50" h="18" text="Dead" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="46" x="262" y="283" image="Perc_knob.png" frames="128"  />
+
+	<StaticText          x="312"  y="265" w="50" h="18" text="Align" color_text="#101D0AFF" />
+
+	<!-- OnOffButton: a 2-state cc modulator -->
+	<OnOffButton param="45"  x="322" y="283" w="30" h="30" image="Perc_button.png" />
+
+	<!-- Controls - 13-in snare -->
+	
+	<StaticText x="492" y="29" w="50" h="20" text="13 IN" color_text="#101D0AFF" transparent="1"  />
+
+	<StaticText x="440" y="57" w="32" h="18" text="Top" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="50"   x="450"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="480" y="57" w="32" h="18" text="OH" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="52"   x="490"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="520" y="57" w="32" h="18" text="Punch" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="57"   x="530"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="560" y="57" w="32" h="18" text="Epic" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="59"   x="570"  y="75"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<!-- 13-in snare knobs -->
+
+	<StaticText x="462" y="212" w="50" h="18" text="Pan" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="53" x="472" y="230" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="522" y="212" w="50" h="18" text="Tune" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="54" x="532" y="230" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="462" y="265" w="50" h="18" text="Dead" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="56" x="472" y="283" image="Perc_knob.png" frames="128"  />
+
+	<StaticText          x="522"  y="265" w="50" h="18" text="Align" color_text="#101D0AFF" />
+
+	<!-- OnOffButton: a 2-state cc modulator -->
+	<OnOffButton param="55"  x="532" y="283" w="30" h="30" image="Perc_button.png" />
+
+	<!-- Bottom controls -->
+
+	<!-- Controls: effects for all -->
+
+	<StaticText x="672" y="55" w="50" h="20" text="Low cut" color_text="#101D0AFF" transparent="1"  />
+
+	<Knob param="77"  x="682" y="71" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="672" y="109" w="50" h="20" text="Tom Dirt" color_text="#101D0AFF" transparent="1"  />
+
+	<OnOffButton param="20"  x="682" y="125" w="30" h="30" image="Perc_button.png" />
+
+
+
+
+</GUI>                                                                                                                                       

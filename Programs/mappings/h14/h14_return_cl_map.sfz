@@ -1,0 +1,13 @@
+
+<group>
+
+<region>
+sample=../Samples/h14/cl/rr1/hh_return_rr1.flac
+
+<region>
+sample=../Samples/h14/cl/rr2/hh_return_rr2.flac
+seq_position=2
+
+<region>
+sample=../Samples/h14/cl/rr3/hh_return_rr3.flac
+seq_position=3

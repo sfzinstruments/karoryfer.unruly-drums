@@ -1,0 +1,71 @@
+<GUI w="775" h="335">
+
+	<!-- Clicks and noises GUI -->
+ 
+	<!-- Background -->
+
+	<StaticImage x="0" y="0" w="773" h="333" image="control_tab_clicks.png" transparent="0"  />
+
+
+	<StaticText x="212" y="25" w="50" h="20" text="CLICKS" color_text="#101D0AFF" transparent="1"  />
+
+	<StaticText x="163" y="47" w="32" h="18" text="Top" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="100"   x="173"  y="65"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="218" y="47" w="32" h="18" text="OH" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="101"   x="228"  y="65"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="272" y="47" w="32" h="18" text="Btm" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="102"   x="282"  y="65"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<!-- Pan knobs -->
+
+	<StaticText x="212" y="196" w="50" h="20" text="PAN" color_text="#101D0AFF" transparent="1"  />
+ 
+	<StaticText x="127" y="212" w="50" h="18" text="22" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="33" x="137" y="230" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="172" y="212" w="70" h="18" text="Woodblock" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="107" x="192" y="230" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="237" y="212" w="50" h="18" text="14" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="43" x="247" y="230" image="Perc_knob.png" frames="128"  />
+
+	<StaticText          x="292"  y="212" w="50" h="18" text="13" color_text="#101D0AFF" />
+
+	<Knob param="53" x="302" y="230" image="Perc_knob.png" frames="128"  />
+
+
+	<StaticText          x="352"  y="262" w="50" h="18" text="Tune" color_text="#101D0AFF" />
+
+	<Knob param="103" x="362" y="280" image="Perc_knob.png" frames="128"  />
+
+
+	<StaticText          x="412"  y="262" w="50" h="18" text="Low Cut" color_text="#101D0AFF" />
+
+	<Knob param="77" x="422" y="280" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="482" y="25" w="90" h="20" text="MECH NOISES" color_text="#101D0AFF" transparent="1"  />
+
+	<StaticText x="480" y="47" w="32" h="18" text="Close" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="105"   x="490"  y="65"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="540" y="47" w="32" h="18" text="OH" color_text="#101D0AFF" transparent="1"   />
+
+<Slider param="106"   x="550"  y="65"  w="12" h="133" orientation="vertical"    image_handle="perc_fader_handle.png" image_bg="perc_fader_slot_127.png"  />
+
+	<StaticText x="502" y="196" w="50" h="20" text="PAN" color_text="#101D0AFF" transparent="1"  />
+
+	<StaticText x="502" y="212" w="50" h="18" text="Hi-hat" color_text="#101D0AFF" transparent="1"   />
+	
+	<Knob param="82" x="512" y="230" image="Perc_knob.png" frames="128"  />
+
+
+</GUI>                                                                                                                                       

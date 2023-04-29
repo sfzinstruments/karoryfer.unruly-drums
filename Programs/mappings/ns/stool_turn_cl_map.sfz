@@ -1,0 +1,13 @@
+
+<group>
+
+<region>
+sample=../Samples/ns/cl/rr1/stool_turn_rr1.flac
+
+<region>
+sample=../Samples/ns/cl/rr2/stool_turn_rr2.flac
+seq_position=2
+
+<region>
+sample=../Samples/ns/cl/rr3/stool_turn_rr3.flac
+seq_position=3

@@ -1,0 +1,77 @@
+//22 snare
+
+#define $s22sskey 25
+#define $s22ckey 26
+#define $s22ekey 27
+#define $s22rkey 28
+
+//Stirs
+#define $sstirs 29
+#define $sstiri 30
+#define $sstira 31
+#define $sstirf 32
+#define $sstirm 33
+
+//Kick
+#define $kickddkey 34
+#define $kickdkey 35
+#define $kickkey 36
+
+//14 snare
+#define $s14sskey 37
+#define $s14ckey 38
+#define $s14ekey 39
+#define $s14rkey 40
+
+//Hi-hat
+#define $htclstkey 42
+#define $htchkkey 44
+#define $htvartkey 46
+#define $htclsskey 54
+#define $htsplkey 56
+#define $htvarskey 58
+
+//Toms
+#define $t22ckey 41
+#define $t22ekey 43
+#define $t14key 45
+#define $t13key 47
+
+//Ride
+#define $rdrdkey 51
+#define $rdchkey 52
+#define $rdblkey 53
+#define $rdcrkey 55
+//Crash
+#define $crcrkey 49
+#define $crchkey 50
+#define $crrdkey 57
+
+//13 snare
+#define $s13sskey 61
+#define $s13ckey 62
+#define $s13ekey 63
+#define $s13rkey 64
+
+
+//Percussive clicks
+#define $wblokey 59
+#define $wbhikey 60
+#define $k20rcskey 65
+#define $k20rctkey 66
+#define $s22rcskey 67
+#define $s22rctkey 68
+#define $s14rcskey 69
+#define $s14rctkey 70
+#define $s13rcskey 71
+#define $s13rctkey 72
+
+//Noises
+#define $kickdownkey 74
+#define $kickgroankey 76
+#define $kickupkey 77
+#define $htdownkey 78
+#define $htreturnkey 80
+#define $htupkey 82
+#define $stoolsitkey 81
+#define $stoolturnkey 83

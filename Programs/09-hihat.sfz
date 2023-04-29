@@ -1,0 +1,62 @@
+<control>
+//Keymap goes here
+#include "keymap/keymap.sfz"
+
+//Comment out the below two lines and uncomment the next two for e-kit use
+#define $ht_lo_hi_init 127
+#include "keymap/hatccs_default.sfz"
+//#define $ht_lo_hi_init 0
+//#include "keymap/hatccs_ekit.sfz"
+
+label_cc4=Hi-hat position
+label_cc25=Cymbal sticking
+label_cc77=Nonkick low cut
+label_cc80=Hi-hat close
+label_cc81=Hi-hat OH
+label_cc82=Hi-hat pan
+label_cc83=Hi-hat tune
+label_cc84=Hi-hat align
+label_cc96=Cymbal dryness
+label_cc98=Hi-hat tightness
+
+set_cc4=$ht_lo_hi_init
+set_cc81=80
+set_cc82=80
+set_cc83=63
+set_cc86=100
+set_cc87=75
+
+<global>
+seq_length=4
+loop_mode=one_shot
+off_mode=normal
+ampeg_release=0.2 //Default for hi-hat muting, minimum for snare stirs etc.
+bend_up=100
+bend_down=100
+//Pan curves for the close mics, easier to set them all at once here
+pan_curvecc82=12
+//Mute curves
+//Again easier to set them here instead of under every applicable master header
+ampeg_sustain_curvecc96=8
+ampeg_hold_curvecc98=8
+ampeg_decay_curvecc98=8
+ampeg_sustain_curvecc98=7
+//The non-kick low cut
+eq1_freq=50
+eq1_bw=4
+eq1_gain_oncc77=-18
+//Very low velocity not so whisper quiet
+amp_velcurve_1=0.4
+
+
+//Hi-hat
+#include "mappings/h14_switch.sfz"
+#include "mappings/h14_foot.sfz"
+#include "mappings/h14_mute.sfz"
+
+//Curves
+#include "mappings/curves/pancurves.sfz"
+#include "mappings/curves/tunecurves.sfz"
+//One of the below two lines should be commented out
+#include "mappings/curves/hh_kb_volcurves.sfz"
+//#include "mappings/curves/hh_ekit_volcurves.sfz"

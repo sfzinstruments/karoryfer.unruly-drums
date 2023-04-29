@@ -1,0 +1,13 @@
+//Regular tune curve
+<curve>
+curve_index=41
+v000=-1
+v063=0
+v127=1
+
+//Asymmetrical tune curve for clicks and woodblock
+<curve>
+curve_index=42
+v000=-0.5
+v063=0
+v127=1

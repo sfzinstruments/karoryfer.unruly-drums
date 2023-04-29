@@ -1,0 +1,60 @@
+<master>
+key=$s22sskey
+amplitude_cc37=100
+locc37=1 pan_cc33=100
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+transpose=12
+#include "mappings/s22/s22_sstick_top_map.sfz"
+<master>
+key=$s22sskey
+amplitude_cc38=100
+locc38=1 pan_cc33=100
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+transpose=12
+#include "mappings/s22/s22_sstick_btm_map.sfz"
+<master>
+key=$s22sskey
+amplitude_cc39=100
+locc39=1
+amplitude_cc33=100
+amplitude_curvecc33=18
+pan=-100
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+offset=52
+transpose=-12
+#include "mappings/s22/s22_sstick_ohl_map.sfz"
+<master>
+key=$s22sskey
+amplitude_cc39=100
+locc39=1
+amplitude_cc33=100
+amplitude_curvecc33=19
+pan=100
+tune_cc34=1200 tune_curvecc34=41
+offset=120
+transpose=-12
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_sstick_ohr_map.sfz"

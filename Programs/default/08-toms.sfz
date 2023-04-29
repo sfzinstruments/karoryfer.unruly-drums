@@ -1,0 +1,85 @@
+<control>
+//Keymap goes here
+#include "keymap/keymap.sfz"
+
+label_cc20=Tom dirt
+label_cc30=22 top
+label_cc32=22 OH
+label_cc33=22 pan
+label_cc34=22 tune
+label_cc35=22 align
+label_cc36=22 deaden
+label_cc37=22 punch
+label_cc39=22 epic
+label_cc40=14 top
+label_cc42=14 OH
+label_cc43=14 pan
+label_cc44=14 tune
+label_cc45=14 align
+label_cc46=14 deaden
+label_cc47=14 punch
+label_cc49=14 epic
+label_cc50=13 top
+label_cc52=13 OH
+label_cc53=13 pan
+label_cc54=13 tune
+label_cc55=13 align
+label_cc56=13 deaden
+label_cc57=13 punch
+label_cc59=13 epic
+label_cc77=Nonkick low cut
+
+set_cc30=80
+set_cc32=110
+set_cc33=41
+set_cc34=63
+set_cc40=80
+set_cc42=100
+set_cc43=69
+set_cc44=63
+set_cc50=80
+set_cc52=110
+set_cc53=85
+set_cc54=63
+
+<global>
+seq_length=4
+loop_mode=one_shot
+off_mode=normal
+ampeg_release=0.2 //Default for hi-hat muting, minimum for snare stirs etc.
+bend_up=100
+bend_down=100
+//Pan curves for the close mics, easier to set them all at once here
+pan_curvecc33=12
+pan_curvecc43=12
+pan_curvecc53=12
+//Mute curves
+//Again easier to set them here instead of under every applicable master header
+ampeg_hold_curvecc36=8
+ampeg_decay_curvecc36=8
+ampeg_sustain_curvecc36=7
+ampeg_hold_curvecc46=8
+ampeg_decay_curvecc46=8
+ampeg_sustain_curvecc46=7
+ampeg_hold_curvecc56=8
+ampeg_decay_curvecc56=8
+ampeg_sustain_curvecc56=7
+//The non-kick low cut
+eq1_freq=50
+eq1_bw=4
+eq1_gain_oncc77=-18
+//Very low velocity not so whisper quiet
+amp_velcurve_1=0.4
+
+
+//The three snares with the wires disengaged
+#include "mappings/s22_tom.sfz"
+#include "mappings/s14_tom.sfz"
+#include "mappings/s13_tom.sfz"
+#include "mappings/s22_tom_transp.sfz"
+#include "mappings/s14_tom_transp.sfz"
+#include "mappings/s13_tom_transp.sfz"
+
+//Curves
+#include "mappings/curves/pancurves.sfz"
+#include "mappings/curves/tunecurves.sfz"

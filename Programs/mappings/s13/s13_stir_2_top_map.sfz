@@ -1,0 +1,16 @@
+amp_velcurve_1=0.1
+
+<region>
+sample=../Samples/s13/top/rr1/s13_stir_dl2_rr1.wav
+
+<region>
+sample=../Samples/s13/top/rr2/s13_stir_dl2_rr2.wav
+seq_position=2
+
+<region>
+sample=../Samples/s13/top/rr3/s13_stir_dl2_rr3.wav
+seq_position=3
+
+<region>
+sample=../Samples/s13/top/rr4/s13_stir_dl2_rr4.wav
+seq_position=4

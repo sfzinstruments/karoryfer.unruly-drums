@@ -1,0 +1,37 @@
+<master>
+key=$wblokey
+amplitude_cc100=100
+locc100=1
+pan_cc107=100
+pan_curvecc107=37
+tune_cc103=1200
+tune_curvecc103=42
+#include "mappings/wb/wb_lo_cl_map.sfz"
+<master>
+key=$wblokey
+amplitude_cc101=100	
+locc101=1
+pan_cc107=100
+pan_curvecc107=36
+tune_cc103=1200
+tune_curvecc103=42
+#include "mappings/wb/wb_lo_oh_map.sfz"
+
+<master>
+key=$wbhikey
+amplitude_cc100=100
+locc100=1
+pan_cc107=100
+pan_curvecc107=37
+tune_cc103=1200
+tune_curvecc103=42
+#include "mappings/wb/wb_hi_cl_map.sfz"
+<master>
+key=$wbhikey
+amplitude_cc101=100	
+locc101=1
+pan_cc107=100
+pan_curvecc107=36
+tune_cc103=1200
+tune_curvecc103=42
+#include "mappings/wb/wb_hi_oh_map.sfz"

@@ -1,0 +1,33 @@
+<master>
+key=$k20rcskey
+amplitude_cc100=100
+locc100=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/k20/k20_rcshank_cl_map.sfz"
+<master>
+key=$k20rcskey
+amplitude_cc101=100
+locc101=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/k20/k20_rcshank_oh_map.sfz"
+
+<master>
+key=$k20rctkey
+amplitude_cc100=100
+locc100=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/k20/k20_rctip_cl_map.sfz"
+<master>
+key=$k20rctkey
+amplitude_cc101=100
+locc101=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/k20/k20_rctip_oh_map.sfz"

@@ -1,0 +1,5 @@
+<master>
+seq_length=1
+#include "mappings/h14/h14_muteg_cl_map.sfz"
+#include "mappings/h14/h14_muteg_ohl_map.sfz"
+#include "mappings/h14/h14_muteg_ohr_map.sfz"

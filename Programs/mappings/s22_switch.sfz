@@ -1,0 +1,362 @@
+<master>
+key=$s22ckey
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+hicc21=63
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_center_top_map.sfz"
+<master>
+key=$s22ckey
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+hicc21=63
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_center_btm_map.sfz"
+<master>
+key=$s22ckey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=18
+hicc21=63
+pan=-100
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_center_ohl_map.sfz"
+<master>
+key=$s22ckey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=19
+hicc21=63
+pan=100
+tune_cc34=1200 tune_curvecc34=41
+offset_cc35=68
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_center_ohr_map.sfz"
+
+<master>
+key=$s22ckey
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+locc21=64
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_center_top_map.sfz"
+<master>
+key=$s22ckey
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+locc21=64
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_center_btm_map.sfz"
+<master>
+key=$s22ckey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=18
+locc21=64
+pan=-100
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_center_ohl_map.sfz"
+<master>
+key=$s22ckey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=19
+locc21=64
+pan=100
+tune_cc34=1200 tune_curvecc34=41
+offset_cc35=68
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_center_ohr_map.sfz"
+
+<master>
+key=$s22ekey
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+hicc21=63
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_edge_top_map.sfz"
+<master>
+key=$s22ekey
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+hicc21=63
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_edge_btm_map.sfz"
+<master>
+key=$s22ekey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=18
+hicc21=63
+pan=-100
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_edge_ohl_map.sfz"
+<master>
+key=$s22ekey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=19
+hicc21=63
+pan=100
+tune_cc34=1200 tune_curvecc34=41
+offset_cc35=68
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_edge_ohr_map.sfz"
+
+<master>
+key=$s22ekey
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+locc21=64
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_dig_top_map.sfz"
+<master>
+key=$s22ekey
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+locc21=64
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_dig_btm_map.sfz"
+<master>
+key=$s22ekey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=18
+locc21=64
+pan=-100
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_dig_ohl_map.sfz"
+<master>
+key=$s22ekey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=19
+locc21=64
+pan=100
+tune_cc34=1200 tune_curvecc34=41
+offset_cc35=68
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_dig_ohr_map.sfz"
+
+//Edge hits with the sticks also on the rimshot key
+//Because there are no real rimshots sampled
+//Because the rim is a deep wooden hoop from a kick
+<master>
+key=$s22rkey
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+hicc21=63
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_edge_top_map.sfz"
+<master>
+key=$s22rkey
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+hicc21=63
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_edge_btm_map.sfz"
+<master>
+key=$s22rkey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=18
+hicc21=63
+pan=-100
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_edge_ohl_map.sfz"
+<master>
+key=$s22rkey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=19
+hicc21=63
+pan=100
+tune_cc34=1200 tune_curvecc34=41
+offset_cc35=68
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.19
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_edge_ohr_map.sfz"
+
+<master>
+key=$s22rkey
+amplitude_cc30=100
+locc30=1 pan_cc33=100
+locc21=64
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_edge_top_map.sfz"
+<master>
+key=$s22rkey
+amplitude_cc31=100
+locc31=1 pan_cc33=100
+locc21=64
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_edge_btm_map.sfz"
+<master>
+key=$s22rkey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=18
+locc21=64
+pan=-100
+tune_cc34=1200 tune_curvecc34=41
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_edge_ohl_map.sfz"
+<master>
+key=$s22rkey
+amplitude_cc32=100
+locc32=1
+amplitude_cc33=100
+amplitude_curvecc33=19
+locc21=64
+pan=100
+tune_cc34=1200 tune_curvecc34=41
+offset_cc35=68
+ampeg_hold=0.2
+ampeg_hold_oncc36=-0.17
+ampeg_decay=1.614
+ampeg_decay_oncc36=-1.604
+ampeg_sustain=100
+ampeg_sustain_oncc36=-100
+#include "mappings/s22/s22_b_edge_ohr_map.sfz"

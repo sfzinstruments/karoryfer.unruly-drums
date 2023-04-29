@@ -1,0 +1,79 @@
+<master>
+key=$s13rcskey
+amplitude_cc100=100
+pan_cc53=100
+locc100=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/s13/s13_rcshank_top_map.sfz"
+<master>
+key=$s13rcskey
+amplitude_cc101=100
+pan_cc53=100
+locc101=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/s13/s13_rcshank_btm_map.sfz"
+<master>
+key=$s13rcskey
+amplitude_cc102=100 amplitude_cc53=100
+amplitude_curvecc53=10
+locc102=1
+tune_cc103=2400
+tune_curvecc103=42
+pan=-100
+offset_cc55=105
+amp_velcurve_1=0.1
+#include "mappings/s13/s13_rcshank_ohl_map.sfz"
+<master>
+key=$s13rcskey
+amplitude_cc102=100 amplitude_cc53=100
+amplitude_curvecc53=11
+locc102=1
+tune_cc103=2400
+tune_curvecc103=42
+pan=100
+amp_velcurve_1=0.1
+#include "mappings/s13/s13_rcshank_ohr_map.sfz"
+
+<master>
+key=$s13rctkey
+amplitude_cc100=100
+pan_cc53=100
+locc100=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/s13/s13_rctip_top_map.sfz"
+<master>
+key=$s13rctkey
+amplitude_cc101=100
+pan_cc53=100
+locc101=1
+tune_cc103=2400
+tune_curvecc103=42
+amp_velcurve_1=0.1
+#include "mappings/s13/s13_rctip_btm_map.sfz"
+<master>
+key=$s13rctkey
+amplitude_cc102=100 amplitude_cc53=100
+amplitude_curvecc53=10
+locc102=1
+tune_cc103=2400
+tune_curvecc103=42
+pan=-100
+offset_cc55=105
+amp_velcurve_1=0.1
+#include "mappings/s13/s13_rctip_ohl_map.sfz"
+<master>
+key=$s13rctkey
+amplitude_cc102=100 amplitude_cc53=100
+amplitude_curvecc53=11
+locc102=1
+tune_cc103=2400
+tune_curvecc103=42
+pan=100
+amp_velcurve_1=0.1
+#include "mappings/s13/s13_rctip_ohr_map.sfz"

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<Key>21FADBA439E4D8DA927C7D52984DDD8FC865FEE81E9E7BE2CEB2AE43F0E17444D061E677A6040A2F0FFF44CEBDCC7D2F7C6E694328E0E74ACF0B0A705CE606A71E2B8BFA9A1FC10D55A1284B585A77F263376A5783F33F9A3ADF7B867B433D85A3F0967774E80B9828C8BD3149D89585642A4EE18E56B2B8CB9445BEE2146E0F1CE22C2220ABC44845A4780257CCFFA5EC3904F986AB81F7C8097A182CD8281C75C87E1FA79991CC983EE6EAEB53D04A6F0885507DF8861925B4B5F2729AB50292F4498678006BF67B8E48B10F9D67EF8738075E871D7F717E011DE37EA137618C178D89D7C7474DA9A30BBCA2028E373FBE68E154806B4DD22B3C5CBE97968B</Key>
+<AriaBank id="2527" name="Unruly Drums" vendor="Karoryfer" product="Unruly Drums" version="1000" >
+
+    <Define name="$sample_dir" value="../Samples"/>
+    
+    <!-- branding for Aria Player and sforzando UIs -->
+    <AriaGUI path="GUI/aria_info.xml"  target="*ARIA_INFO" />    
+ 
+    <AriaProgram  name="01-Kit with sticks"   gui="GUI/01-kit-sticks.xml">   <AriaElement  path="Programs/01-kit-sticks.sfz"/>   </AriaProgram>
+    <AriaProgram  name="02-Kit with brushes"  gui="GUI/02-kit-brushes.xml">  <AriaElement  path="Programs/02-kit-brushes.sfz"/>  </AriaProgram>
+    <AriaProgram  name="03-Complete kit"      gui="GUI/03-kit-complete.xml"> <AriaElement  path="Programs/03-kit-complete.sfz"/> </AriaProgram>
+    <AriaProgram  name="04-Kick bus"          gui="GUI/04-kick.xml">         <AriaElement  path="Programs/04-kick.sfz"/>         </AriaProgram>
+    <AriaProgram  name="05-22 in snare bus"   gui="GUI/05-s22.xml">          <AriaElement  path="Programs/05-s22.sfz"/>          </AriaProgram>
+    <AriaProgram  name="06-14 in snare bus"   gui="GUI/06-s14.xml">          <AriaElement  path="Programs/06-s14.sfz"/>          </AriaProgram>
+    <AriaProgram  name="07-13 in snare bus"   gui="GUI/07-s13.xml">          <AriaElement  path="Programs/07-s13.sfz"/>          </AriaProgram>
+    <AriaProgram  name="08-Tom bus"           gui="GUI/08-toms.xml">         <AriaElement  path="Programs/08-toms.sfz"/>         </AriaProgram>    
+    <AriaProgram  name="09-Hi-hat bus"        gui="GUI/09-hihat.xml">        <AriaElement  path="Programs/09-hihat.sfz"/>        </AriaProgram>
+    <AriaProgram  name="10-Cymbal bus"        gui="GUI/10-cymbals.xml">      <AriaElement  path="Programs/10-cymbals.sfz"/>      </AriaProgram>
+    <AriaProgram  name="11-Clicks and noises" gui="GUI/11-clicks.xml" >      <AriaElement  path="Programs/11-clicks.sfz"/>       </AriaProgram>
+
+</AriaBank>

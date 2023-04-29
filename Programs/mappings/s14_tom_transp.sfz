@@ -1,0 +1,97 @@
+<master>
+key=$t14key
+amplitude_cc47=100
+locc47=1 tune_cc44=1200 tune_curvecc44=41
+pan_cc43=100
+hicc20=63
+ampeg_hold=0.2
+ampeg_hold_oncc46=-0.19
+ampeg_decay=1.804
+ampeg_decay_oncc46=-1.794
+ampeg_sustain=100
+ampeg_sustain_oncc46=-100
+transpose=12
+#include "mappings/s14/s14_tom_clean_top_map.sfz"
+<master>
+key=$t14key
+amplitude_cc49=100
+locc49=1 tune_cc44=1200 tune_curvecc44=41
+amplitude_cc43=100
+amplitude_curvecc43=14
+hicc20=63
+pan=-100
+offset=106
+transpose=-12
+ampeg_hold=0.2
+ampeg_hold_oncc46=-0.19
+ampeg_decay=1.804
+ampeg_decay_oncc46=-1.794
+ampeg_sustain=100
+ampeg_sustain_oncc46=-100
+#include "mappings/s14/s14_tom_clean_ohl_map.sfz"
+<master>
+key=$t14key
+amplitude_cc49=100
+locc49=1 tune_cc44=1200 tune_curvecc44=41
+amplitude_cc43=100
+amplitude_curvecc43=15
+hicc20=63
+pan=100
+ampeg_hold=0.2
+ampeg_hold_oncc46=-0.19
+ampeg_decay=1.804
+ampeg_decay_oncc46=-1.794
+ampeg_sustain=100
+ampeg_sustain_oncc46=-100
+offset=53
+transpose=-12
+#include "mappings/s14/s14_tom_clean_ohr_map.sfz"
+
+<master>
+key=$t14key
+amplitude_cc47=100
+locc20=64
+locc47=1 tune_cc44=1200 tune_curvecc44=41
+pan_cc43=100
+ampeg_hold=0.2
+ampeg_hold_oncc46=-0.19
+ampeg_decay=1.804
+ampeg_decay_oncc46=-1.794
+ampeg_sustain=100
+ampeg_sustain_oncc46=-100
+transpose=12
+#include "mappings/s14/s14_tom_dirty_top_map.sfz"
+<master>
+key=$t14key
+amplitude_cc49=100
+locc49=1 tune_cc44=1200 tune_curvecc44=41
+amplitude_cc43=100
+amplitude_curvecc43=14
+locc20=64
+pan=-100
+offset=106
+transpose=-12
+ampeg_hold=0.2
+ampeg_hold_oncc46=-0.19
+ampeg_decay=1.804
+ampeg_decay_oncc46=-1.794
+ampeg_sustain=100
+ampeg_sustain_oncc46=-100
+#include "mappings/s14/s14_tom_dirty_ohl_map.sfz"
+<master>
+key=$t14key
+amplitude_cc49=100
+locc49=1 tune_cc44=1200 tune_curvecc44=41
+amplitude_cc43=100
+amplitude_curvecc43=15
+locc20=64
+pan=100
+ampeg_hold=0.2
+ampeg_hold_oncc46=-0.19
+ampeg_decay=1.804
+ampeg_decay_oncc46=-1.794
+ampeg_sustain=100
+ampeg_sustain_oncc46=-100
+offset=53
+transpose=-12
+#include "mappings/s14/s14_tom_dirty_ohr_map.sfz"
